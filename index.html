@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.D Officisl Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.jpg">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home">
+        <img src="logo.jpg" alt="M.D. Official Logo" class="header-logo">
+        <h1>Welcome to M.D. Social Media Marketing</h1>
+   
+        <p>Your one-stop shop for digital services.</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>App Recharges</h3>
+            <p>Instantly recharge any app for uninterrupted access.</p>
+        </div>
+        <div class="service-item">
+            <h3>Game Credits</h3>
+            <p>Buy credits for all your favorite games easily.</p>
+        </div>
+        <div class="service-item">
+            <h3>Netflix Subscriptions</h3>
+            <p>Get your binge on with seamless Netflix subscription services.</p>
+        </div>
+        <div class="service-item">
+            <h3>Shahid VIP</h3>
+            <p>Exclusive access to Shahid's premium content at your fingertips.</p>
+        </div>
+        <div class="service-item">
+            <h3>Shein Shopping</h3>
+            <p>Enjoy the latest trends and fashions with Shein.</p>
+        </div>
+        <div class="service-item">
+            <h3>PayPal Top-Up</h3>
+            <p>Top-up your PayPal account quickly and securely.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Your existing form, if any -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com/maher.___.official/p/C3aSGqZIwYk/" target="_blank">
+                    <img src="insta.jpg" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@m.d.officiall" target="_blank">
+                    <img src="tiktkkk].png" alt="TikTok">
+                </a>
+                <a href="https://wa.me/+96176436383 " target="_blank">
+                    <img src="whatspp.jpg" alt="WhatsApp">
+                </a>
+            </div>
+        </section>
+        <form>
+            <!-- Contact form elements -->
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 M.D. Official Services</p>
+    </footer>
+    <script>
+        // Intersection Observer setup
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                } else {
+                    entry.target.classList.remove('animate');
+                }
+            });
+        }, {
+            threshold: 0.1 // This means the animation will trigger when 10% of the item is visible
+        });
+        
+        // Targeting elements to be animated
+        document.querySelectorAll('.service-item').forEach((item) => {
+            observer.observe(item);
+        });
+        
+        // Add more querySelectors for other elements you want to animate
+        </script>
+        
+</body>
+</html>
+ 
